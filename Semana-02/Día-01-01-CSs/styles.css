@@ -1,0 +1,28 @@
+p {
+    color: blue;
+    background-color: rgb(65, 255, 65);
+    font-size: 20px;
+}
+
+/* Añadir background h1 y cambiar el tamaño a 50 px */
+
+h1 {
+    background-color: yellow;
+    font-size: 50px;
+}
+
+h3 {
+    background-color: orange;
+}
+
+#estado {
+    background-color: brown;   
+}
+
+.btn {
+    background-color: gold;
+}
+
+.texto-resaltado {
+    color: rgb(165, 18, 233);
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    >
+</head>
+<body>
+  <main class="container">
+    <h1>Formularios + Input</h1>
+
+    <form action="">
+
+      <h2>Input</h2>
+
+      <label for="text1"><strong>Input tipo TEXTO</strong></label>
+      <input type="" placeholder="Ingrese texto" id="text1"><br><br>
+
+      <label for=""><i>Input tipo CONTRASEÑA</i></label>
+      <input type="password" placeholder="Contraseña"><br><br>
+
+      <label for="">
+        Input tipo lectura
+        <input type="text" placeholder="Lectura" readonly value="copia este Codigo">
+      </label><br><br>
+
+      <label for="">
+        Input Desactivado
+        <input type="text" placeholder="Lectura" disabled>
+      </label><br><br>
+
+      <label for="">
+        Input tipo number
+        <input type="number" placeholder="Ingrese su edad" min="1" max="99">
+      </label><br><br>
+
+      <label for="">
+        Input Correo
+        <input type="email" placeholder="Ingrese su correo" min="1" max="99">
+      </label><br><br>
+
+      <label for="">
+        Input Rango
+        <input type="range" min="0" max="10" step="2">
+      </label><br><br>
+
+      <label for="">
+        Input Telefono
+        <input type="tel" min="0" max="10" step="2" placeholder="+51 999 999 999">
+      </label><br><br>
+
+      <label for="">
+        Input url
+        <input type="url" placeholder="misitio.com">
+      </label><br><br>
+
+      <label for="">
+        Input  color
+        <input type="color">
+      </label><br><br>
+
+      <label for="">
+        Input  Busqueda
+        <input type="search" placeholder="Buscar...">
+      </label><br><br>
+
+      <label for="">
+        Input  Archivo (un archivo a la vez)
+        <input type="file" accept=".png">
+      </label><br><br>
+
+      <label for="">
+        Input  Archivo (multiples a la vez)
+        <input type="file" multiple">
+      </label><br><br>
+
+      <input type="hidden"  value="soy un valor oculto">
+
+      <label for="">
+        Input  Enviar
+        <input type="submit" value="Guardar">
+      </label><br><br>
+
+    </form>
+
+    <form action="">
+      <h2>Input tipo fecha </h2>
+
+      <label for="">
+        Input  Fecha y Hora
+        <input type="datetime-local" >
+      </label><br><br>
+
+      <label for="">
+        Input  Dia
+        <input type="date" >
+      </label><br><br>
+
+      <label for="">
+        Input  Hora
+        <input type="time" >
+      </label><br><br>
+
+      <label for="">
+        Input  Semana
+        <input type="week" >
+      </label><br><br>
+
+      <label for="">
+        Input  Mes
+        <input type="month" >
+      </label><br><br>
+    </form>
+
+    <form action="">
+      <h2>TextArea</h2>
+      <label for="">
+        <textarea placeholder="Escribe Sobre Ti" rows="5" cols="7"></textarea>
+      </label>
+    </form>
+
+    <form action="">
+      <h2>Select</h2>
+
+      <label for="">
+        Selecciona tu Nacionalidad Unica
+        <select name="" id="">
+          <option value="Per">Peruana</option>
+          <option value="Ecu">Ecuatoriana</option>
+          <option value="Bra">brazil</option>
+        </select>
+
+        <label for="">
+        Selecciona tu Nacionalidad multiples
+        <select multiple>
+          <option value="Per">Peruana</option>
+          <option value="Ecu">Ecuatoriana</option>
+          <option value="Bra">brazil</option>
+        </select>
+        
+      </label>
+    </form>
+
+    <form action="">
+      <h2>ChecBoxes</h2>
+
+      <h3>Lebguajes de preferencias</h3>
+
+      <label for="">
+        <input type="checkbox"  value="Ing">
+        Ingles
+      </label>
+
+      <label for="">
+        <input type="checkbox"  value="Fran">
+        frances
+      </label>
+    </form>
+
+    <label for="">
+        <input type="checkbox"  value="por">
+        portuges
+      </label>
+    </form>
+    
+    <form action="">
+      <h2>Radio Buttons</h2>
+
+      <h3>Selecciona tu comida favorita  "unica"</h3>
+
+      <label for="">
+        <input type="radio" name="Comida" value="Causa">
+        causa
+      </label>
+
+      <label for="">
+        <input type="radio" name="Comida" value="Arroz">
+        arroz con pollo
+      </label>
+
+      <label for="">
+        <input type="radio" name="Comida" value="Sopa">
+        sopa
+      </label>
+
+    </form>
+
+    <form action="">
+      <h2>Radio Buttons</h2>
+
+      <h3>Selecciona tu comida favorita "Multiple"</h3>
+
+      <label for="">
+        <input type="radio"  value="Causa">
+        causa
+      </label>
+
+      <label for="">
+        <input type="radio"  value="Arroz">
+        arroz con pollo
+      </label>
+
+      <label for="">
+        <input type="radio"  value="Sopa">
+        sopa
+      </label>
+
+    </form>
+
+    <form action="">
+      <h2>Validaciones</h2>
+
+      <label for="">
+        Nombre Obligatorio
+        <input type="text" name="nombre" required minlength="3" maxlength="15" placeholder="Ingrese su nombre">
+      </label>
+
+      <label for="">
+        Ingrese su Correo
+        <input type="email" name="correo" required placeholder="Ingrese su correo">
+      </label>
+
+      <label for="">
+        color (Obligatorio)
+        <select name="Color" id="" required>
+          <option value="">Selecciona tu color favorito...</option>
+          <option>rojo</option>
+          <option>amarillo</option>
+          <option>verde</option>
+        </select>
+      </label>
+
+      <label for="">
+        <input type="submit" value="Guardar" name="enviar">
+      </label>
+    </form>
+
+  </main>
+</body>
+</html>
