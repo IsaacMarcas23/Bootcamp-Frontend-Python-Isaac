@@ -47,4 +47,4 @@ Este repositero nos sirve para aprender el flujo de trabajo de GIT y GITHUB
 
 ## Final 
 
-Isaac Marcas Morales
+* Isaac Marcas Morales
