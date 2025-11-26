@@ -28,7 +28,7 @@ Este repositero nos sirve para aprender el flujo de trabajo de GIT y GITHUB
 * git remote add origin https://..
 * git remote remove origin 
 
-* git branch -M main
+* git branch -M main 
 
 * git push -u origin main
 * git push origin main
@@ -36,8 +36,13 @@ Este repositero nos sirve para aprender el flujo de trabajo de GIT y GITHUB
 
 * git pull origin main
 * git pull
+
 * git checkout ejemplo 
 * git checkout -b ejemplos 
+
 * git switch -C ejemplo2 
 * git switch ejemplo2 
+
 * git marge ejemplo2
+
+## Final 
