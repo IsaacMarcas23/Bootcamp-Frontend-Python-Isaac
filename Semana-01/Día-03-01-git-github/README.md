@@ -46,3 +46,5 @@ Este repositero nos sirve para aprender el flujo de trabajo de GIT y GITHUB
 * git marge ejemplo2
 
 ## Final 
+
+Isaac Marcas Morales
