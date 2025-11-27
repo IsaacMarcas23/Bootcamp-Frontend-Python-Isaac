@@ -70,6 +70,8 @@ a {
   margin: 0 auto;
 }
 
+/* HEADER SECTION */
+
 .header {
   /* border: 1px solid red; */
 
@@ -117,3 +119,49 @@ a {
   align-items: center;
   gap: 2rem;
 }
+
+/* PRODUCT DETAIL */
+
+.product-detail {
+  /* border: 1px solid red; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  /* Estos estilos se aplican para tablets, desktops, + */
+  .product-detail {
+    flex-direction: row;
+    gap: 5rem;
+
+    padding: 4rem;
+  }
+}
+
+.gallery {
+  /* border: 1px solid blue; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.gallery__slider {
+  /* border: 1px solid green; */
+
+  display: flex;
+  gap: 1rem;
+}
+
+@media (min-width: 992px) {
+  /* Estos estilos se aplican para tablets, desktops, + */
+  .gallery__cover {
+    border-radius: 1rem;
+  }
+}
+
+/* TODO: Ocultar el slider solo en móviles usando media queries */
